@@ -90,5 +90,5 @@ let addedTwoItems = groceries.unshift("Ketchup", "chili");
 console.log(`The array is as following after adding 2 elements to the top : `);
 console.log(groceries);
 let replacedElements= groceries.splice(2, 2);
-console.log(`The array is as following after deleting the 3rd element: `);
+console.log(`The array is as following after deleting the unrequired elements: `);
 console.log(groceries);
